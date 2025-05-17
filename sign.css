@@ -82,7 +82,7 @@ footer{
   min-height:100vh;
        }
   form {
-    width: 600px;
+    width: 100%;
     padding: 10px;
   }
 
@@ -105,7 +105,7 @@ footer{
          min-height:100vh;
   }
        form {
-    max-width: 700px;
+    max-width: 100%;
     padding: 10px;
   }
 
