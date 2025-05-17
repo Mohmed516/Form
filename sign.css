@@ -10,8 +10,7 @@
      
      body{
        max-height: 150vh;
-       display: flex;
-       flex-flow: column wrap; 
+       
      }
      .content {
        width:100%;
@@ -101,7 +100,7 @@ footer{
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   form {
-    max-width: 500px;
+    max-width: 80%;
     padding: 20px;
   }
 
