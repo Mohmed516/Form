@@ -41,7 +41,7 @@
          
        }
      .contents input {
-       width: 90%;
+       width: 50%;
        margin: 20px 15px; 
        font-size: 0.9em;
        padding: 10px; 
@@ -124,7 +124,7 @@ footer{
        min-height:100vh;
   }
 form {
-    max-width: 800px;
+    min-width: 400px;
     padding: 25px;
     border-radius: 20px;
   }
@@ -150,7 +150,7 @@ form {
               min-height:100vh;
        }
   form {
-    max-width: 900px;
+    max-width: 400px;
     padding: 30px;
   }
 
