@@ -82,8 +82,8 @@ footer{
   min-height:100vh;
        }
   form {
-    width: 100%;
-    padding: 15px;
+    width: 800px;
+    padding: 10px;
   }
 
   .contents input {
@@ -106,7 +106,7 @@ footer{
   }
        form {
     max-width: 100%;
-    padding: 20px;
+    padding: 10px;
   }
 
   .contents input {
@@ -124,7 +124,7 @@ footer{
        min-height:100vh;
   }
 form {
-    max-width: 700px;
+    max-width: 800px;
     padding: 25px;
     border-radius: 20px;
   }
@@ -150,7 +150,7 @@ form {
               min-height:100vh;
        }
   form {
-    max-width: 700px;
+    max-width: 900px;
     padding: 30px;
   }
 
