@@ -11,8 +11,10 @@
      body{
        max-height: 150vh;
        display: flex;
+       flex-flow: wrap,
        justify-content: center;
        align-content: center;
+       background-color:#0D6D63;
      }
     /*.content {
        width:100%;
