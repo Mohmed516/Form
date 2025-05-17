@@ -9,7 +9,10 @@
      }
      
      body{
-       height: 150vh;
+       max-height: 150vh;
+       display: flex;
+       justify-content: center;
+       align-content: center;
      }
      .content {
        width:100%;
