@@ -9,7 +9,7 @@
      }
      
      body{
-       height: 150vh;
+       max-height: 150vh;
        display: flex;
        flex-flow: column wrap; 
      }
@@ -17,8 +17,7 @@
        width:100%;
        min-height: 100vh;
        background-color:#0D6D63; 
-       flex-flow: wrap; 
-       display: flex; 
+       display: grid;
        justify-content: center;
        align-content: center; 
  }
