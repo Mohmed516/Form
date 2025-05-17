@@ -15,7 +15,7 @@
      }
      .content {
        width:100%;
-       min-height: 100vh;
+       min-height: 80vh;
        background-color:#0D6D63; 
        display: grid;
        justify-content: center;
