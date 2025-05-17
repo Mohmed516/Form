@@ -14,14 +14,14 @@
      }
      .content {
        width:100%;
-       min-height: 100vh;
+       height: 100vh;
        background-color:#0D6D63; 
        display: grid;
        justify-content: center;
        align-content: center; 
  }
      form{
-       width:90%;
+       width:100%;
        display: flex;
        flex-flow:column wrap; 
        justify-content: center; 
@@ -80,7 +80,7 @@ footer{
    
 @media (max-width: 575.98px) {
  .content{
-  height:100vh;
+  min-height:100vh;
        }
   form {
     width: 95%;
@@ -106,7 +106,7 @@ footer{
          min-height:100vh;
   }
        form {
-    max-width: 80%;
+    max-width: 95%;
     padding: 20px;
   }
 
@@ -121,7 +121,9 @@ footer{
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  
+  .content{
+       min-height:100vh;
+  }
 form {
     max-width: 90%;
     padding: 25px;
@@ -145,6 +147,9 @@ form {
 }
 
 @media (min-width: 992px) {
+       .content{
+              min-height:100vh;
+       }
   form {
     max-width: 90%;
     padding: 30px;
