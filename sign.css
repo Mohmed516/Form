@@ -145,12 +145,12 @@ form {
   }
 }
 
-@media (min-width: 992px) {
-       .content{
+@media (min-width: 992px)and(max-width:1200px){  
+.content{
               min-height:100vh;
        }
   form {
-    max-width: ;
+    min-width: 600px;
     padding: 30px;
   }
 
@@ -175,7 +175,7 @@ form {
   }
 
   form {
-    max-width: ;
+    min-width: 600px;
   }
 
   .contents input {
