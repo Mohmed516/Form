@@ -9,7 +9,7 @@
      }
      
      body{
-       height: 100vh;
+       height: 150vh;
        display: flex;
        flex-flow: column wrap; 
      }
