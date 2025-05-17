@@ -9,12 +9,13 @@
      }
      
      body{
-       height: 150vh;
+       height: 100vh;
       
      }
     .content {
        width:100%;
        height: 100%;
+      background-color: #0D6D63;
        display: grid; 
        justify-content: center;
        align-content: center; 
@@ -112,7 +113,11 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+ .content {
+   height:150vh;
+ }
   form {
+  
     max-width: 600px;
     padding: 25px;
     border-radius: 20px;
@@ -139,6 +144,9 @@
   }
 }
 @media (min-width: 992px) {
+  .content{
+    height:150vh;
+  }
   form {
     max-width: 700px;
     padding: 30px;
