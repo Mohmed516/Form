@@ -21,7 +21,7 @@
        align-content: center; 
  }
      form{
-       min-width:400px;
+       min-width:200px;
        display: flex;
        flex-flow: column wrap; 
        justify-content: center; 
